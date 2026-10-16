@@ -41,6 +41,32 @@ Random Forest achieved slightly higher ROC-AUC and PR-AUC than Logistic Regressi
 - External source scores (`EXT_SOURCE_1`, `EXT_SOURCE_2`, and `EXT_SOURCE_3`) were important predictors.
 - Threshold selection involves a trade-off between false positives and missed high-risk cases.
 
+## Visualizations
+
+### 1. Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
+The confusion matrix shows the number of correct and incorrect predictions made by the Random Forest model at a classification threshold of 0.60.
+
+### 2. ROC Curve
+
+![ROC Curve](roc_curve.png)
+
+The ROC curve compares the ability of Logistic Regression and Random Forest to distinguish between the two target classes.
+
+### 3. Precision-Recall Curve
+
+![Precision-Recall Curve](precision_recall_curve.png)
+
+The Precision-Recall curve is particularly relevant because the target variable is imbalanced.
+
+### 4. Feature Importance
+
+![Feature Importance](feature_importance.png)
+
+The feature importance analysis highlights variables that contribute to the predictive performance of the Random Forest model.
+
 ## Limitations
 - The dataset comes from Home Credit and does not directly represent Indonesian fintech or Pindar lending data.
 - `TARGET = 1` indicates payment difficulties according to the source dataset definition.
