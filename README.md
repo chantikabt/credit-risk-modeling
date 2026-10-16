@@ -45,27 +45,19 @@ Random Forest achieved slightly higher ROC-AUC and PR-AUC than Logistic Regressi
 
 ### 1. Confusion Matrix
 
-![Confusion Matrix](confusion_matrix.png)
-
-The confusion matrix shows the number of correct and incorrect predictions made by the Random Forest model at a classification threshold of 0.60.
+![Confusion Matrix](./confusion_matrix.png)
 
 ### 2. ROC Curve
 
-![ROC Curve](roc_curve.png)
-
-The ROC curve compares the ability of Logistic Regression and Random Forest to distinguish between the two target classes.
+![ROC Curve](./roc_curve.png)
 
 ### 3. Precision-Recall Curve
 
-![Precision-Recall Curve](precision_recall_curve.png)
-
-The Precision-Recall curve is particularly relevant because the target variable is imbalanced.
+![Precision-Recall Curve](./precision_recall_curve.png)
 
 ### 4. Feature Importance
 
-![Feature Importance](feature_importance.png)
-
-The feature importance analysis highlights variables that contribute to the predictive performance of the Random Forest model.
+![Feature Importance](./feature_importance.png)
 
 ## Limitations
 - The dataset comes from Home Credit and does not directly represent Indonesian fintech or Pindar lending data.
