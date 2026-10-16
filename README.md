@@ -45,19 +45,19 @@ Random Forest achieved slightly higher ROC-AUC and PR-AUC than Logistic Regressi
 
 ### 1. Confusion Matrix
 
-![Confusion Matrix](./confusion_matrix.png)
+![Confusion Matrix](./Confusion%20matrix.png)
 
 ### 2. ROC Curve
 
-![ROC Curve](./roc_curve.png)
+![ROC Curve](./ROC%20Curve.png)
 
 ### 3. Precision-Recall Curve
 
-![Precision-Recall Curve](./precision_recall_curve.png)
+![Precision-Recall Curve](./Precision-Recall%20Curve.png)
 
 ### 4. Feature Importance
 
-![Feature Importance](./feature_importance.png)
+![Feature Importance](./Feature%20Importance.png)
 
 ## Limitations
 - The dataset comes from Home Credit and does not directly represent Indonesian fintech or Pindar lending data.
